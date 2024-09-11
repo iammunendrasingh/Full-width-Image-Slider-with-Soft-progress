@@ -1,3 +1,6 @@
+body {
+    padding: 10px;
+}
 .slider-container {
     position: relative;
     overflow: hidden;
@@ -53,4 +56,16 @@
 
 .completed .fill {
     width: 100%;
+}
+.about-slider {
+    display: flex;
+    gap: 20px 40px;
+    flex-wrap: wrap;
+}
+.about, .features {
+    flex: 1 1 200px;
+    border: solid #d9d9d9 2px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 20px;
 }
